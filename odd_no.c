@@ -1,8 +1,9 @@
 #include<stdio.h>
 int main()
 {
- int n;
+ int n=0;
  printf("Enter no :");
+ sacnf("%d",&n);
 
    if((n%2)==0)
    {
