@@ -3,4 +3,4 @@ sudo:false # only for faster builds
 compiler:gcc
 script :
        - gcc -o file odd_no.c
-        ./file
+        - ./file
